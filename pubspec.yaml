@@ -1,0 +1,91 @@
+name: speaksi
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.14.0
+  firebase_auth: ^4.16.0
+  firebase_storage: ^11.6.0
+  fluttertoast: ^8.2.8
+  google_sign_in: ^6.2.1
+  font_awesome_flutter: ^10.6.0
+  email_auth: ^1.1.1
+  get: ^4.6.6
+  table_calendar: ^3.0.9
+  hive: ^2.2.3
+  share_plus: ^7.2.2
+  url_launcher: ^6.2.4
+  image_picker: ^1.0.7
+
+  cached_network_image: ^3.3.1
+  percent_indicator: ^4.2.3
+  hive_flutter: ^1.1.0
+  flutter_timezone: ^1.0.8
+  rxdart: ^0.27.7
+  js: ^0.6.7
+  win32: ^5.2.1
+  flashy_tab_bar2: ^0.0.10
+  firebase_app_check: ^0.2.2
+  mailer: ^6.1.2
+  toast: ^0.3.0
+  flutter_svg: ^2.0.6
+  file_picker: ^5.2.6
+  persistent_bottom_nav_bar: ^6.2.1
+  audioplayers: ^6.1.0
+  sqflite: ^2.0.0+3
+  provider: ^6.0.0
+  record: ^4.4.4
+  path_provider: ^2.0.15
+  flutter_animate: ^4.5.2
+  speech_to_text: ^6.3.0
+  pdf: ^3.10.4
+  just_audio: ^0.9.38
+  permission_handler: ^11.3.1
+  google_fonts: ^5.1.0
+  shimmer: ^3.0.0
+  path: ^1.9.0
+  flutter_sound: ^9.6.0
+  convex_bottom_bar: ^3.2.0
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.10.0
+  http: ^1.1.0
+  shared_preferences: ^2.0.0
+  awesome_notifications: ^0.8.2
+  supabase_flutter: ^2.8.3
+  syncfusion_flutter_charts: ^20.4.48
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.1
+
+# Flutter launcher icons configuration
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "images/img_23.png"
+  adaptive_icon_background: "#6B46C1"
+  adaptive_icon_foreground: "images/img_23.png"
+  remove_alpha_ios: true
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "images/img_23.png"
+    background_color: "#6B46C1"
+    theme_color: "#6B46C1"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
